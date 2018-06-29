@@ -36,8 +36,8 @@ class AddContactViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         self.setDoneOnKeyboard()
-        self.nameTextField.setBottomLine(borderColor: UIColor.gray)
-        self.emailTextField.setBottomLine(borderColor: UIColor.gray)
+        self.nameTextField.setBottomLine(borderColor: UIColor.red)
+        self.emailTextField.setBottomLine(borderColor: UIColor.red)
         self.phoneNumberTextField.setBottomLine(borderColor: UIColor.gray)
         self.countryCode.setBottomLine(borderColor: UIColor.gray)
         tableView.isHidden = true
